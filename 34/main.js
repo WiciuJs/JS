@@ -1,8 +1,15 @@
-let napis = "Uwielbiam JavaScript" ;
-let napis2 = "Jestem świetnym programistą" ;
+let napis = "Uwielbiam JavaScript";
+let napis2 = "Jestem świetnym programistą";
 
-if (napis == napis2) {
-    console.log(napis);
-} else {
-    console.log(napis2);
+
+function compare(text, text1) {
+    if (text > text1) {
+        return text;
+    } else {
+        return text1;
+    }
+
 }
+
+const wynik = compare(napis, napis2);
+console.log(wynik);
