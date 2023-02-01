@@ -3,7 +3,7 @@ let napis2 = "Jestem świetnym programistą";
 
 
 function compare(text, text1) {
-    if (text > text1) {
+    if (text.length > text1.length) {
         return text;
     } else {
         return text1;
