@@ -1,0 +1,23 @@
+body {
+    background-color: orange;
+    background-position: center;
+    margin-top: 50px;
+    max-width: 150px;
+
+}
+
+h1 {
+    color: purple;
+    font-style: italic;
+    font-size: x-large;
+}
+
+#dodaj {
+    background-color: blue;
+    color: white;
+}
+
+#usun {
+    background-color: red;
+    color: white;
+}
