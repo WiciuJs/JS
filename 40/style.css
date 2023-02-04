@@ -1,0 +1,27 @@
+body {
+    align-items: center;
+    background: whitesmoke;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    height: 100wh;
+    justify-content: center;
+    width: 100vw;
+}
+form,button {
+    border: none;  
+    background-color: bisque;
+    border-radius: 15px;
+    box-shadow: 0px;
+    max-width: 300px;
+    padding: 36px 24px;
+    text-align: center;
+}
+
+#container{
+    color: burlywood;
+    position: absolute;
+    left: 5%;
+    top: 25px;
+    text-align: center;
+}
